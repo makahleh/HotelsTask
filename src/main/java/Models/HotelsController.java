@@ -63,11 +63,11 @@ public class HotelsController extends HttpServlet {
             {
                 HotelInfo hotel=offer.showHotelDetails(hotels,id);
                 request.setAttribute("hotel", hotel);
-                RequestDispatcher veiw=request.getRequestDispatcher("Views/ShowHotelDetails.jsp");
+                RequestDispatcher veiw=request.getRequestDispatcher("ShowHotelDetails.jsp");
                 veiw.forward(request,response);
             }
         }
-        RequestDispatcher veiw=request.getRequestDispatcher("Views/Hotels.jsp");
+        RequestDispatcher veiw=request.getRequestDispatcher("Hotels.jsp");
          veiw.forward(request,response);
     }
 
