@@ -61,7 +61,7 @@
 						</div>
 						<div class="col-xxs-12 col-xs-12">
 							<div class="input-field">
-								<label for="from">Length of stay:</label>
+								<label for="from">Length of stay:<br>(In Days)</label>
 								<input type="text" class="form-control" name="lengthOfStay" placeholder="length.."/>
 							</div>
 						</div>
