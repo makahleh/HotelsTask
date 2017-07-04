@@ -107,31 +107,6 @@
 				</div>
 			</div>
 		</footer>
-
-	
-
-	</div>
-	<!-- END fh5co-page -->
-
-	</div>
-	<!-- END fh5co-wrapper -->
-
-	<!-- jQuery -->
-
-
-	<script src="/Scripts/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="/Scripts/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="/Scripts/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="/Scripts/jquery.waypoints.min.js"></script>
-	<!-- CS Select -->
-	<script src="/Scripts/classie.js"></script>
-	<script src="/Scripts/selectFx.js"></script>	
-	<!-- Main JS -->
-	<script src="/Scripts/main.js"></script>
-
 	</body>
 </html>
 

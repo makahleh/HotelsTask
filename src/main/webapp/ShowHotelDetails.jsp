@@ -49,13 +49,12 @@
                                             <c:set var = "hotel" value ="${hotel}" />              
                                             <img src="<c:out value="${hotel.getHotelImageUrl()}"/>" style="width:10%">
                                             <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Hotel Name: <div style="color:white"><c:out value="${hotel.getHotelName()}"/></div></div>
-                                               <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Country: <div style="color:white"><c:out value="${hotel.getHotelCountry()}"/></div></div>
-                                            <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Hotel City: <div style="color:white"><c:out value="${hotel.getHotelCity()}"/></div></div>"
+                                            <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Country: <div style="color:white"><c:out value="${hotel.getHotelCountry()}"/></div></div>
                                             <div style="color: rgba(0, 0, 0, 0.7);font-size:140%"> Description: <div style="color:white"><c:out value="${hotel.getDescription()}"/></div></div>
                                             <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Travel Start Date: <div style="color:white"><c:out value="${hotel.getTravelStartDate()}"/></div></div>
                                             <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Travel End Date: <div style="color:white"><c:out value="${hotel.getTravelEndDate()}"/></div></div>
                                             <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Guest Rating: <div style="color:white"><c:out value="${hotel.getHotelGuestReviewRating()}"/></div></div>                                         
-                                             <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Hotel URL: <div style="color:white"><c:out value="${hotel.getHotelURL()}"/></div></div>  
+                                            <div style="color: rgba(0, 0, 0, 0.7);font-size:140%">Hotel URL: <div style="color:white"><c:out value="${hotel.getHotelURL()}"/></div></div>  
                                         </div>
                                
 					</div>
