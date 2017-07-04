@@ -75,7 +75,9 @@ public class Offers {
              myHotel.setLanguage((String) hotelInfo.get("language"));
              myHotel.setTravelEndDate((String) hotelInfo.get("travelEndDate"));
              myHotel.setTravelStartDate((String) hotelInfo.get("travelStartDate"));
-             myHotel.setLengthOfStay((long)( (JSONObject)hotel1.get("offerDateRange")).get("lengthOfStay"));         
+             myHotel.setHotelCountry((String)( (JSONObject)hotel1.get("destination")).get("longName"));  
+             myHotel.setLengthOfStay((long)( (JSONObject)hotel1.get("offerDateRange")).get("lengthOfStay"));    
+             myHotel.setHotelURL((((String)( (JSONObject)hotel1.get("hotelUrls")).get("hotelInfositeUrl")).replace("%2F","/").replace("%3A", ":")));
              hotels.add(myHotel);   
         }
              

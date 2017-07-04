@@ -12,15 +12,17 @@ package Models;
 public class HotelInfo {
      private String hotelName;
      private String hotelDestination;
-    private String hotelCity;
-    private String description;
-    private String travelStartDate;
-    private String travelEndDate;
-    private String hotelImageUrl;
-    private String language;
-    private String hotelId;
-    private double hotelGuestReviewRating;
-    private long lengthOfStay;
+     private String hotelCity;
+     private String description;
+     private String travelStartDate;
+     private String travelEndDate;
+     private String hotelImageUrl;
+     private String language;
+     private String hotelId;
+     private String hotelCountry;
+     private String hotelURL;
+     private double hotelGuestReviewRating;
+     private long lengthOfStay;
 
     /**
      * @return the hotelName
@@ -174,5 +176,33 @@ public class HotelInfo {
      */
     public void setLengthOfStay(long lengthOfStay) {
         this.lengthOfStay = lengthOfStay;
+    }
+
+    /**
+     * @return the hotelCountry
+     */
+    public String getHotelCountry() {
+        return hotelCountry;
+    }
+
+    /**
+     * @param hotelCountry the hotelCountry to set
+     */
+    public void setHotelCountry(String hotelCountry) {
+        this.hotelCountry = hotelCountry;
+    }
+
+    /**
+     * @return the hotelURL
+     */
+    public String getHotelURL() {
+        return hotelURL;
+    }
+
+    /**
+     * @param hotelURL the hotelURL to set
+     */
+    public void setHotelURL(String hotelURL) {
+        this.hotelURL = hotelURL;
     }
 }
