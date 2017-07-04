@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="/css/cs-select.css">
 	<link rel="stylesheet" href="/css/cs-skin-border.css">
 	
-	<link rel="stylesheet" href="/Hotel_Deals/css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
@@ -104,7 +104,7 @@
                    <c:forEach items="${Hotels}" var="hotel"> 
                      <div class="col-md-2 animate-box fadeInUp animated">
                          <div class="property">                  
-                            <a href="/Hotel_Deals/HotelsController?show=<c:out value="${hotel.getHotelId()}"/>" target=\"_blank\" class="fh5co-property">
+                            <a href="/HotelsController?show=<c:out value="${hotel.getHotelId()}"/>" target=\"_blank\" class="fh5co-property">
                                 <img src="<c:out value="${hotel.getHotelImageUrl()}"/>" style="margin-left:30%;margin-top:50%;width:40%">
                                 <ul class="list-details">
                                      <li><c:out value="${hotel.getHotelName()}"/></li><br>
