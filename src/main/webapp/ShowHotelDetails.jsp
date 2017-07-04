@@ -16,16 +16,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="/Hotel_Deals/css/animate.css">
+	<link rel="stylesheet" href="/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="/Hotel_Deals/css/icomoon.css">
+	<link rel="stylesheet" href="/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="/Hotel_Deals/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
 	<!-- CS Select -->
-	<link rel="stylesheet" href="/Hotel_Deals/css/cs-select.css">
-	<link rel="stylesheet" href="/Hotel_Deals/css/cs-skin-border.css">
+	<link rel="stylesheet" href="/css/cs-select.css">
+	<link rel="stylesheet" href="/css/cs-skin-border.css">
 	
-	<link rel="stylesheet" href="/Hotel_Deals/css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
