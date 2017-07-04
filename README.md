@@ -1,8 +1,8 @@
 -HotelOffers project parsed from Expedia API. By: MOhammad Makahleh
 
--Clone the project files throw git : git clone https://github.com/makahleh/expedia.git
+-Clone the project files throw git : git clone https://github.com/makahleh/HotelsTask
 
--My app URL :https://makahleh94.herokuapp.com/
+-My app URL :https://makahleh.herokuapp.com/
 
 -Technologiees i used : java, bootstrap, json , HTML ,css.
 
